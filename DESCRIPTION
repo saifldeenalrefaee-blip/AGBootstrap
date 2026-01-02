@@ -1,17 +1,30 @@
 Package: AGBootstrap
+Type: Package
 Title: Adaptive Generative Bootstrap for Small Sample Inference
 Version: 0.1.0
-Authors@R: 
-    person("Saifuldeen", "Dheyauldeen Alrefaee", , "saifldeen.alrefaee@uomosul.edu.iq", role = c("aut", "cre"))
-Description: Implements the Adaptive Generative Bootstrap (AGB) method proposed 
-    to correct coverage probability in small and multimodal samples. The method 
-    uses variable-bandwidth kernel density estimation to generate robust 
-    bootstrap replicates.
+Authors@R: c(
+    person("Saifuldeen", "Dheyauldeen Alrefaee",
+           email = "saifldeen.alrefaee@uomosul.edu.iq",
+           role = c("aut", "cre"))
+)
+Description: Implements the Adaptive Generative Bootstrap (AGB) method, which has
+    been proposed to improve coverage probability in small-sample and multimodal
+    settings. Variable-bandwidth kernel density estimation is combined with
+    generative resampling to produce robust bootstrap replicates.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-Imports: 
+Depends: R (>= 3.6.0)
+Imports:
     stats
+Suggests:
+    boot,
+    ggplot2,
+    dplyr,
+    tidyr,
+    purrr,
+    knitr,
+    rmarkdown
 URL: https://github.com/saifldeenalrefaee-blip/AGBootstrap
 BugReports: https://github.com/saifldeenalrefaee-blip/AGBootstrap/issues
