@@ -1,0 +1,7 @@
+# Ignore generated simulation outputs
+outputs/
+figures/
+
+# Keep directories tracked
+!outputs/.gitkeep
+!figures/.gitkeep
