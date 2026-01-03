@@ -1,7 +1,7 @@
 Package: AGBootstrap
 Type: Package
 Title: Adaptive Generative Bootstrap for Small-Sample Inference
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Saifuldeen", "Dheyauldeen Alrefaee",
            email = "saifuldeen.alrefaee@uomosul.edu.iq",
